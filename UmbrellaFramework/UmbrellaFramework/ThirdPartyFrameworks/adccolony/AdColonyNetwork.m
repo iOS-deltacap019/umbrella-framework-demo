@@ -10,7 +10,8 @@
 #import <AdColony/AdColony.h>
 
 @implementation AdColonyNetwork
--(NSString*) getVersionNo {
+-(NSString*) getVersionNo
+{
 	//return @"";
 	return [AdColony getSDKVersion];
 }

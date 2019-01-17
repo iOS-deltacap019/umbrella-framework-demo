@@ -23,12 +23,14 @@
 {
 	NSMutableString *versionInfo = [[NSMutableString alloc] init];
 	AdColonyNetwork *adColonyNetwork = [[AdColonyNetwork alloc] init];
+	[versionInfo appendString: @"Ad Colony Network: "];
 	[versionInfo appendString: [adColonyNetwork getVersionNo]];
 	
 	[versionInfo appendString: @"\n"];
 	
-	AerServNetwork *aerServNetwork = [[AerServNetwork alloc] init];
-	[versionInfo appendString: [aerServNetwork getVersionNo]];
+	AppLovinNetwork *appLovinNetwork = [[AppLovinNetwork alloc] init];
+	[versionInfo appendString: @"Ap Lovin Network: "];
+	[versionInfo appendString: [appLovinNetwork getVersionNo]];
 	
 	self.labelVersionInfo.text = versionInfo;
 }

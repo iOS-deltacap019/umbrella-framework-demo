@@ -9,10 +9,8 @@
 #import <UIKit/UIKit.h>
 
 #import <UmbrellaFramework/AdColonyNetwork.h>
-#import <UmbrellaFramework/AerServNetwork.h>
+#import <UmbrellaFramework/AppLovinNetwork.h>
 
-
-//#import <UmbrellaFramework/UmbrellaFramework.h>
 
 @interface ViewController : UIViewController
 
