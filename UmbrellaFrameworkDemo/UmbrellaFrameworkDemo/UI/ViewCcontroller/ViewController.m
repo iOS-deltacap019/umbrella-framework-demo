@@ -32,6 +32,12 @@
 	[versionInfo appendString: @"Ap Lovin Network: "];
 	[versionInfo appendString: [appLovinNetwork getVersionNo]];
 	
+	[versionInfo appendString: @"\n"];
+	
+	FlurryNetwork *flurryNetwork = [[FlurryNetwork alloc] init];
+	[versionInfo appendString: @"Flurry Network: "];
+	[versionInfo appendString: [flurryNetwork getVersionNo]];
+	
 	self.labelVersionInfo.text = versionInfo;
 }
 

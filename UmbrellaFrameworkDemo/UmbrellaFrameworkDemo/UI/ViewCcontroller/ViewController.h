@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-#import <UmbrellaFramework/AdColonyNetwork.h>
-#import <UmbrellaFramework/AppLovinNetwork.h>
+//#import <UmbrellaFramework/AdColonyNetwork.h>
+//#import <UmbrellaFramework/AppLovinNetwork.h>
+//#import <UmbrellaFramework/FlurryNetwork.h>
+#import <UmbrellaFramework/UmbrellaFramework.h>
 
 
 @interface ViewController : UIViewController
